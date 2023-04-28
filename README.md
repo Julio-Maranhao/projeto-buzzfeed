@@ -35,7 +35,7 @@ Building a BuzzFeed Clone with Angular
 
 ## Technologies 🤖
 
-
+<div style="{display: flex; flex-direction: row}">
 <img height="100px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
 
 <img height="100px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
@@ -47,7 +47,7 @@ Building a BuzzFeed Clone with Angular
 <img height="100px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 
 <img height="100px" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
-          
+</div>       
           
 				
           
