@@ -1,0 +1,37 @@
+.buttons__container {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.buttons__container > button {
+	color: #ffffff;
+	padding: 8px;
+	margin: 10px 20px;
+	border: 1px solid #4224d9;
+	background-color: #644ED2;
+	position: relative;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	cursor: pointer;
+}
+
+.buttons__container > button > svg {
+	fill: #ffffff;
+}
+
+.buttons__container > button:hover {
+	top: -2px;
+	box-shadow: 0 0 10px #ffffff46;
+}
+
+.buttons__container > button:active {
+	top: 0;
+}

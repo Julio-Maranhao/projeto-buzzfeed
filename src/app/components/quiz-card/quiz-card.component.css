@@ -5,7 +5,7 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	width: min(40vw, 500px);
+	width: min(35vw, 500px);
 	height: auto;
 	aspect-ratio: 16/9;
 	border-radius: 8px;

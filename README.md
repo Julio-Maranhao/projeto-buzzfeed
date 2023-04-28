@@ -2,26 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-## Development server
+## Features ✨
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project was made to suport 3 Quiz types:
 
-## Code scaffolding
+- Regular quiz - Pick option with most occurrency;
+- Test quiz - Percentage of correct answers;
+- Game quiz - Time trial quiz with 2 chances.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+See deploy on: https://julio-maranhao.github.io/projeto-buzzfeed/
 
-## Build
+## Challenges 💪
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Routes - Configuring pages as components and rendering them due to URL changes.
 
-## Running unit tests
+JSON - Setting TypeScript to read a JSON file directly.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Directives - Work with Angular directives to automatic change components functionalities.
 
-## Running end-to-end tests
+Services - Working with services changing the main service due to Quiz type.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+HTML/CSS - Better use of HTML/CSS elements and properties to enhance user experience on intuitive
 
-## Further help
+## Objectives 🎯
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Deploy on Potência Tech Angular Developer - Powered by iFood
+
+Project:
+
+Building a BuzzFeed Clone with Angular
+
+

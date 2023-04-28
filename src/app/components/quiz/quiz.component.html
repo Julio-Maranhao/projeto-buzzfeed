@@ -3,7 +3,9 @@
 		<img src="assets/images/logo.png" alt="">
 		<h3>{{ title }}</h3>
 	</div>
-	<div class="quiz_countdown">
+	<div class="quiz_countdown"
+	*ngIf="quizType === 'game'"
+	>
 		<app-countdown
 		[totalTime]="questionTime"
 		[remainingTime]="questionRemainingTime"

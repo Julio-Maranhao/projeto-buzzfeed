@@ -91,7 +91,16 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "deploy": {
+					"builder": "angular-cli-ghpages:deploy",
+					"options": {
+						"baseHref": "https://julio-maranhao.github.io/projeto-buzzfeed/",
+						"name": "JulioMaranhao",
+						"email": "julio.marahao@outlook.com",
+						"branch": "gh-pages"
+					}
+				}
       }
     }
   },
