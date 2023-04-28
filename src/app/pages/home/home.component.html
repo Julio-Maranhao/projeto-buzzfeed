@@ -1,0 +1,15 @@
+<div class="containe__home">
+	<div class="quiz_logo">
+		<img src="assets/images/logo.png" alt="">
+		<h3>Escolha o quiz que mais combina com você</h3>
+	</div>
+
+	<div class="container__quiz-cards">
+		<app-quiz-card
+		*ngFor="let quiz of quizList"
+		id="{{ quiz.id }}"
+		image="{{quiz.image}}"
+		title="{{ quiz.title }}"
+		/>
+	</div>
+</div>

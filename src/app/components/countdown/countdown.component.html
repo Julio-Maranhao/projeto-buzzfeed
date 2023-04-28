@@ -1,0 +1,9 @@
+<div class="container__clock">
+	<span
+	[ngClass]="{
+		'alert': remainingTime < firstAlert && remainingTime > dangerAlert,
+		'danger': remainingTime <= dangerAlert && remainingTime > 0}"
+	>
+		{{ remainingTime }}
+	</span>
+</div>

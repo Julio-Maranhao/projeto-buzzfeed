@@ -1,0 +1,31 @@
+.container__clock {
+	position: relative;
+	display: flex;
+	align-content: center;
+	margin: 20px 0;
+}
+
+.container__clock > span {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+.alert {
+	color: #e4f12a;
+	animation: number_scale 2s ease-in-out  infinite;
+	-webkit-animation: number_scale 2s ease-in-out  infinite;
+}
+
+.danger {
+	color: #ED1B24;
+	animation: number_scale 1s ease-in-out  infinite;
+	-webkit-animation: number_scale 1s ease-in-out  infinite;
+}
+
+
+
+@keyframes number_scale {
+	0%{ transform:scale(1.2) ; -webkit-transform:scale(1.2) ; -moz-transform:scale(1.2) ; -ms-transform:scale(1.2) ; -o-transform:scale(1.2) ; }
+	50%{ transform:scale(1.5) ; -webkit-transform:scale(1.5) ; -moz-transform:scale(1.5) ; -ms-transform:scale(1.5) ; -o-transform:scale(1.5) ; }
+	100%{ transform:scale(1.2) ; -webkit-transform:scale(1.2) ; -moz-transform:scale(1.2) ; -ms-transform:scale(1.2) ; -o-transform:scale(1.2) ; }
+}

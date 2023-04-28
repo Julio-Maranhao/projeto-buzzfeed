@@ -1,0 +1,10 @@
+<div
+[routerLink]="['/quiz', id]"
+class="container__quiz-card">
+	<img [src]="image" alt="">
+	<div
+	*ngIf="title"
+	class="container__card-content">
+		<h3 class="title">{{title}}</h3>
+	</div>
+</div>

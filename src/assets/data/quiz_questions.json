@@ -1,0 +1,269 @@
+
+{
+	"quiz_list": [
+		{
+			"id": 1,
+			"type": "options",
+			"image": "assets/images/transferir.jpg",
+			"title":"Você seria um heroi ou vilão ?",
+			"prizes": [{"prize": "0", "dificulty":1}],
+			"questions":[
+				{
+					"id":1,
+					"dificulty": 1,
+					"question": "Qual super poder você escolheria ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"A"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"},
+						{"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+					]
+				},
+				{
+					"id":2,
+					"dificulty": 1,
+					"question": "Quem você salvaria primeiro ?",
+					"options":[
+						{"id": 1, "name":"Crianças", "alias":"A"},
+						{"id": 2, "name":"Idosos", "alias":"A"},
+						{"id": 3, "name":"Não saberia escolher", "alias":"B"}
+					]
+				},
+				{
+					"id":3,
+					"dificulty": 1,
+					"question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+					"options":[
+						{"id": 1, "name":"Não destruir prédios", "alias":"B"},
+						{"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+						{"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+						{"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+					]
+				},
+				{
+					"id":4,
+					"dificulty": 1,
+					"question": "Qual o seu maior foco ?",
+					"options":[
+						{"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
+						{"id": 2, "name":"Salvar a cidade", "alias":"B"}
+					]
+				},
+				{
+					"id":5,
+					"dificulty": 1,
+					"question": "Qual o seu apelido de super ser ?",
+					"options":[
+						{"id": 1, "name":"O Terrivel", "alias":"A"},
+						{"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+					]
+				}
+			],
+			"results":{
+				"A": {"text":"Você muito provavelmente seria um super vilão!", "image": ""},
+				"B": {"text":"Você muito provavelmente seria um super Herói!", "image": ""},
+				"C": {"text":"", "image": ""},
+				"D": {"text":"", "image": ""}
+			}
+		},
+
+		{
+			"id": 2,
+			"type": "test",
+			"image": "assets/images/transferir.jpg",
+			"title":"Qual a probabilidade de você ser um Vilão?",
+			"prizes": [{"prize": "0", "dificulty":1}],
+			"questions":[
+				{
+					"id":1,
+					"dificulty": 1,
+					"question": "Qual super poder você escolheria ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"A"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"},
+						{"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+					]
+				},
+				{
+					"id":2,
+					"dificulty": 1,
+					"question": "Quem você salvaria primeiro ?",
+					"options":[
+						{"id": 1, "name":"Crianças", "alias":"A"},
+						{"id": 2, "name":"Idosos", "alias":"A"},
+						{"id": 3, "name":"Não saberia escolher", "alias":"B"}
+					]
+				},
+				{
+					"id":3,
+					"dificulty": 1,
+					"question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+					"options":[
+						{"id": 1, "name":"Não destruir prédios", "alias":"B"},
+						{"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+						{"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+						{"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+					]
+				},
+				{
+					"id":4,
+					"dificulty": 1,
+					"question": "Qual o seu maior foco ?",
+					"options":[
+						{"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
+						{"id": 2, "name":"Salvar a cidade", "alias":"B"}
+					]
+				},
+				{
+					"id":5,
+					"dificulty": 1,
+					"question": "Qual o seu apelido de super ser ?",
+					"options":[
+						{"id": 1, "name":"O Terrivel", "alias":"A"},
+						{"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+					]
+				}
+			],
+			"results":{
+				"A": {"text":"A probabilidade de você ser um Vilão é de:", "image": ""},
+				"B": {"text":"A probabilidade de você ser um Herói é de:", "image": ""},
+				"C": {"text":"", "image": ""},
+				"D": {"text":"", "image": ""}
+			}
+		},
+
+		{
+			"id": 3,
+			"type": "game",
+			"image": "assets/images/transferir.jpg",
+			"title":"Até quando pretende ser um vilão?",
+			"prizes": [
+				{"prize": "$1000,00", "dificulty":1},
+				{"prize": "$5000,00", "dificulty":2},
+				{"prize": "$10000,00", "dificulty":3},
+				{"prize": "$50000,00", "dificulty":4}
+			],
+			"questions":[
+				{
+					"id":1,
+					"dificulty": 1,
+					"question": "Qual super poder você escolheria ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":2,
+					"dificulty": 1,
+					"question": "Quem você salvaria primeiro ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":3,
+					"dificulty": 1,
+					"question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":4,
+					"dificulty": 2,
+					"question": "Qual o seu maior foco ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":5,
+					"dificulty": 2,
+					"question": "Qual o seu apelido de super ser ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":6,
+					"dificulty": 2,
+					"question": "Pergunta numero 6 ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":7,
+					"dificulty": 3,
+					"question": "pergunta numero 7 ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":8,
+					"dificulty": 3,
+					"question": "pergunta numero 8 ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":9,
+					"dificulty": 3,
+					"question": "pergunta numero 9 ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":10,
+					"dificulty": 4,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				}
+			],
+			"results":{
+				"A": {"text":"Parabéns você ganhou: ", "image": "assets/images/money-big.png"},
+				"B": {"text":"Infelizmente você só chegou até: ", "image": "assets/images/money-little.png"},
+				"C": {"text":"", "image": ""},
+				"D": {"text":"", "image": ""}
+			}
+		}
+	]
+}
