@@ -53,6 +53,9 @@ export class GameQuizService {
 		Array.isArray(userSelection) ? obj.answers.push(...userSelection) : obj.answers.push(userSelection);
 		if (userSelection === 'B'){
 			this.removeHeart(1, obj)
+			obj.questionSelected = this.getUniqueQuestionByDificulty(obj.oldQuestionsList, obj.questions, obj.prizes[obj.questionIndex].dificulty);
+			obj.oldQuestionsList.push(obj.questionSelected.id);
+			this.resetTimer(obj)
 
 		} else {
 			this.nextStep(obj);
