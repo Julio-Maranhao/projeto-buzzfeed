@@ -4,147 +4,156 @@
 		{
 			"id": 1,
 			"type": "options",
-			"image": "assets/images/transferir.jpg",
-			"title":"Você seria um heroi ou vilão ?",
+			"image": "assets/images/tech.avif",
+			"title":"Tech • Qual carreira tech combina mais com você ?",
 			"prizes": [{"prize": "0", "dificulty":1}],
 			"questions":[
 				{
 					"id":1,
 					"dificulty": 1,
-					"question": "Qual super poder você escolheria ?",
+					"question": "Como você se define (Seja sincero) ?",
 					"options":[
-						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
-						{"id": 2, "name":"Voar", "alias":"B"},
-						{"id": 3, "name":"Explodir coisas", "alias":"A"},
-						{"id": 4, "name":"Curar feridas", "alias":"B"},
-						{"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+						{"id": 1, "name":"Sou muito indeciso! 🤔", "alias":["A", "B", "D"]},
+						{"id": 2, "name":"Sou o mais criativo do rolê 🤩", "alias":"A"},
+						{"id": 3, "name":"Sou muito produtivo 👩‍💻", "alias":["C", "D"]},
+						{"id": 4, "name":"Sou bastante perfecionista 🧐", "alias":["A", "C"]},
+						{"id": 5, "name":"Gosto de resolver problemas 👨‍🔧", "alias":["C", "D"]},
+						{"id": 6, "name":"Gosto de matamática e lógica ✖➗", "alias":["B", "D"]}
 					]
 				},
 				{
 					"id":2,
 					"dificulty": 1,
-					"question": "Quem você salvaria primeiro ?",
+					"question": "O que você acha mais impressionante ?",
 					"options":[
-						{"id": 1, "name":"Crianças", "alias":"A"},
-						{"id": 2, "name":"Idosos", "alias":"A"},
-						{"id": 3, "name":"Não saberia escolher", "alias":"B"}
+						{"id": 1, "name":"Google e sua inteligencia artificial", "alias":"D"},
+						{"id": 2, "name":"Empresas como Apple e Nubank", "alias":"A"},
+						{"id": 3, "name":"Aplicações de núvem como AWS", "alias":"C"},
+						{"id": 4, "name":"Empresas de inovação e startups", "alias":"B"}
 					]
 				},
 				{
 					"id":3,
 					"dificulty": 1,
-					"question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+					"question": "Design de interface, layout e experiencia do usuário significam o que para você ?",
 					"options":[
-						{"id": 1, "name":"Não destruir prédios", "alias":"B"},
-						{"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-						{"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-						{"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+						{"id": 1, "name":"O que importa é funcionar", "alias":"B"},
+						{"id": 2, "name":"É o mais importante numa aplicação", "alias":"A"},
+						{"id": 3, "name":"Acho importante, mas não é tudo", "alias":"C"},
+						{"id": 4, "name":"Experiencia do usuário? O que é isso?", "alias":"D"}
 					]
 				},
 				{
 					"id":4,
 					"dificulty": 1,
-					"question": "Qual o seu maior foco ?",
+					"question": "O que você gosteria de evitar na sua carreira ?",
 					"options":[
-						{"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-						{"id": 2, "name":"Salvar a cidade", "alias":"B"}
+						{"id": 1, "name":"Banco de Dados", "alias":["A", "C"]},
+						{"id": 2, "name":"Matematica", "alias":["A", "C"]},
+						{"id": 3, "name":"Criar conteúdo", "alias":["B", "C", "D"]},
+						{"id": 4, "name":"Animações", "alias":["B", "C", "D"]},
+						{"id": 5, "name":"Programar", "alias":"A"},
+						{"id": 6, "name":"Documentar o código", "alias":["A", "D"]}
 					]
 				},
 				{
 					"id":5,
 					"dificulty": 1,
-					"question": "Qual o seu apelido de super ser ?",
+					"question": "No trabalho o que não pode faltar ?",
 					"options":[
-						{"id": 1, "name":"O Terrivel", "alias":"A"},
-						{"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+						{"id": 1, "name":"O Stack Overflow aberto", "alias":["B", "C", "D"]},
+						{"id": 2, "name":"Algum app de design", "alias":"A"}
 					]
 				}
 			],
 			"results":{
-				"A": {"text":"Você muito provavelmente seria um super vilão!", "image": ""},
-				"B": {"text":"Você muito provavelmente seria um super Herói!", "image": ""},
-				"C": {"text":"", "image": ""},
-				"D": {"text":"", "image": ""}
+				"A": {"text":"Front-end, UX/UI", "image": "assets/images/frontend.png"},
+				"B": {"text":"Back-end", "image": "assets/images/backend.png"},
+				"C": {"text":"Dev-ops", "image": "assets/images/devops.png"},
+				"D": {"text":"Data Science", "image": "assets/images/data-science.webp"}
 			}
 		},
 
 		{
 			"id": 2,
-			"type": "test",
-			"image": "assets/images/transferir.jpg",
-			"title":"Qual a probabilidade de você ser um Vilão?",
+			"type": "options",
+			"image": "assets/images/isekai.jpg",
+			"title":"Anime • Qual seria seu poder num anime isekai ?",
 			"prizes": [{"prize": "0", "dificulty":1}],
 			"questions":[
 				{
 					"id":1,
 					"dificulty": 1,
-					"question": "Qual super poder você escolheria ?",
+					"question": "Qual a primeira coisa que faria ao chegar no novo mundo ?",
 					"options":[
-						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
-						{"id": 2, "name":"Voar", "alias":"B"},
-						{"id": 3, "name":"Explodir coisas", "alias":"A"},
-						{"id": 4, "name":"Curar feridas", "alias":"B"},
-						{"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+						{"id": 1, "name":"Explorar a região 🌎", "alias":["A", "C"]},
+						{"id": 2, "name":"Testar os poderes recebidos 💥", "alias":["B", "D"]}
 					]
 				},
 				{
 					"id":2,
 					"dificulty": 1,
-					"question": "Quem você salvaria primeiro ?",
+					"question": "Qual seria o seu maior objetivo ?",
 					"options":[
-						{"id": 1, "name":"Crianças", "alias":"A"},
-						{"id": 2, "name":"Idosos", "alias":"A"},
-						{"id": 3, "name":"Não saberia escolher", "alias":"B"}
+						{"id": 1, "name":"Criar uma vila para viver com os amigos 🏰", "alias":"C"},
+						{"id": 2, "name":"Derrotar o Rei Demonio 👿", "alias":"B"},
+						{"id": 3, "name":"Fazer os outros paises de vassalos 🐱‍👤", "alias":"A"},
+						{"id": 3, "name":"Conseguir levar uma vida tranquila ⛱", "alias":"D"}
 					]
 				},
 				{
 					"id":3,
 					"dificulty": 1,
-					"question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+					"question": "O que descreve melhor você próximo do crush ?",
 					"options":[
-						{"id": 1, "name":"Não destruir prédios", "alias":"B"},
-						{"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-						{"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-						{"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+						{"id": 1, "name":"Não posso demonstrar nenhuma emoção 😍", "alias":"B"},
+						{"id": 2, "name":"Crush? O que é isso? 🤔", "alias":"D"},
+						{"id": 3, "name":"Que maravilha 🤤", "alias":"B"},
+						{"id": 4, "name":"Demonstro meu carinho normalmente 🥰", "alias":"C"}
 					]
 				},
 				{
 					"id":4,
 					"dificulty": 1,
-					"question": "Qual o seu maior foco ?",
+					"question": "Como você trataria seus inimigos ?",
 					"options":[
-						{"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-						{"id": 2, "name":"Salvar a cidade", "alias":"B"}
+						{"id": 1, "name":"Fugindo. Detesto batalhas 🏃‍♂️💨", "alias":["D", "B"]},
+						{"id": 2, "name":"Tratando como os vermes que são 😈", "alias":["A", "C"]}
 					]
 				},
 				{
 					"id":5,
 					"dificulty": 1,
-					"question": "Qual o seu apelido de super ser ?",
+					"question": "Como você gostaria de ser chamado ?",
 					"options":[
-						{"id": 1, "name":"O Terrivel", "alias":"A"},
-						{"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+						{"id": 1, "name":"Rei implacável 👑🗡", "alias":"A"},
+						{"id": 2, "name":"Companheiro confiável 🤗", "alias":"D"},
+						{"id": 3, "name":"Rei delas ou deles 😏", "alias":"B"},
+						{"id": 3, "name":"Defensor dos amigos 🤜🤛", "alias":"C"}
 					]
 				}
 			],
 			"results":{
-				"A": {"text":"A probabilidade de você ser um Vilão é de:", "image": ""},
-				"B": {"text":"A probabilidade de você ser um Herói é de:", "image": ""},
-				"C": {"text":"", "image": ""},
-				"D": {"text":"", "image": ""}
+				"A": {"text":"Se tornar um esqueleto", "image": "assets/images/overlord.jpg"},
+				"B": {"text":"Levar qualquer pessoa", "image": "assets/images/levar-alguem.png"},
+				"C": {"text":"Se tornar um Slime", "image": "assets/images/slime.png"},
+				"D": {"text":"Poder fazer compras online", "image": "assets/images/shopping.jpg"}
 			}
 		},
 
 		{
 			"id": 3,
 			"type": "game",
-			"image": "assets/images/transferir.jpg",
-			"title":"Até quando pretende ser um vilão?",
+			"image": "assets/images/milhao.webp",
+			"title":"Game • Show do Milhão: Qual o maior premio que você ganharia ?",
 			"prizes": [
-				{"prize": "$1000,00", "dificulty":1},
-				{"prize": "$5000,00", "dificulty":2},
-				{"prize": "$10000,00", "dificulty":3},
-				{"prize": "$50000,00", "dificulty":4}
+				{"prize": "$1.000,00", "dificulty":1},
+				{"prize": "$5.000,00", "dificulty":1},
+				{"prize": "$10.000,00", "dificulty":2},
+				{"prize": "$50.000,00", "dificulty":2},
+				{"prize": "$100.000,00", "dificulty":3},
+				{"prize": "$500.000,00", "dificulty":3},
+				{"prize": "$1.000.000,00", "dificulty":4}
 			],
 			"questions":[
 				{
@@ -182,7 +191,7 @@
 				},
 				{
 					"id":4,
-					"dificulty": 2,
+					"dificulty": 1,
 					"question": "Qual o seu maior foco ?",
 					"options":[
 						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
@@ -215,7 +224,7 @@
 				},
 				{
 					"id":7,
-					"dificulty": 3,
+					"dificulty": 2,
 					"question": "pergunta numero 7 ?",
 					"options":[
 						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
@@ -226,7 +235,7 @@
 				},
 				{
 					"id":8,
-					"dificulty": 3,
+					"dificulty": 2,
 					"question": "pergunta numero 8 ?",
 					"options":[
 						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
@@ -248,6 +257,72 @@
 				},
 				{
 					"id":10,
+					"dificulty": 3,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":11,
+					"dificulty": 3,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":12,
+					"dificulty": 3,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":13,
+					"dificulty": 4,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":14,
+					"dificulty": 4,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":15,
+					"dificulty": 4,
+					"question": "Pergunta final ?",
+					"options":[
+						{"id": 1, "name":"Raios-Lasers", "alias":"A"},
+						{"id": 2, "name":"Voar", "alias":"B"},
+						{"id": 3, "name":"Explodir coisas", "alias":"B"},
+						{"id": 4, "name":"Curar feridas", "alias":"B"}
+					]
+				},
+				{
+					"id":16,
 					"dificulty": 4,
 					"question": "Pergunta final ?",
 					"options":[
@@ -261,6 +336,90 @@
 			"results":{
 				"A": {"text":"Parabéns você ganhou: ", "image": "assets/images/money-big.png"},
 				"B": {"text":"Infelizmente você só chegou até: ", "image": "assets/images/money-little.png"},
+				"C": {"text":"", "image": ""},
+				"D": {"text":"", "image": ""}
+			}
+		},
+
+		{
+			"id": 4,
+			"type": "test",
+			"image": "assets/images/amor.webp",
+			"title":"Amor • Qual a chance de você encontrar seu par ainda esse ano?",
+			"prizes": [
+				{"prize": "", "dificulty":1}
+			],
+			"questions":[
+				{
+					"id":1,
+					"dificulty": 1,
+					"question": "Qual a sua ideia de primeiro encontro perfeito ?",
+					"options":[
+						{"id": 1, "name":"Restaurante 🍜", "alias":"A"},
+						{"id": 2, "name":"Cinema 🎥", "alias":"A"},
+						{"id": 3, "name":"Academia 💪", "alias":"B"},
+						{"id": 4, "name":"Jogo de Futebol ⚽", "alias":"B"}
+					]
+				},
+				{
+					"id":2,
+					"dificulty": 1,
+					"question": "Você gosta de andar de mãos dadas ?",
+					"options":[
+						{"id": 1, "name":"Que Besteira! 🙄", "alias":"B"},
+						{"id": 2, "name":"Amo! 😍", "alias":"A"},
+						{"id": 3, "name":"Tenho Vergonha 🙈", "alias":"A"},
+						{"id": 4, "name":"Só com quem merece 😜", "alias":"B"}
+					]
+				},
+				{
+					"id":3,
+					"dificulty": 1,
+					"question": "Você prefere beleza, inteligência ou personalidade ?",
+					"options":[
+						{"id": 1, "name":"Beleza 💅", "alias":"B"},
+						{"id": 2, "name":"Inteligência 👩‍🔬", "alias":"B"},
+						{"id": 3, "name":"Personalidade 💖", "alias":"A"},
+						{"id": 4, "name":"O importante é ter saúde 💊", "alias":"A"}
+					]
+				},
+				{
+					"id":4,
+					"dificulty": 1,
+					"question": "Qual dessas características você considera mais importante ?",
+					"options":[
+						{"id": 1, "name":"Gostos parecidos 🎼", "alias":"A"},
+						{"id": 2, "name":"Conta bancária recheada 🤑", "alias":"B"},
+						{"id": 3, "name":"Morar perto 🏠", "alias":"B"},
+						{"id": 4, "name":"Ser um bom filho 😎", "alias":"A"}
+					]
+				},
+				{
+					"id":5,
+					"dificulty": 1,
+					"question": "Se você fosse um animal qual desses seria ?",
+					"options":[
+						{"id": 1, "name":"Preguiça 🦥", "alias":"B"},
+						{"id": 2, "name":"Gato 😺", "alias":"A"},
+						{"id": 3, "name":"Água 🦅", "alias":"B"},
+						{"id": 4, "name":"Arara 🦜", "alias":"A"}
+					]
+				},
+				{
+					"id":6,
+					"dificulty": 1,
+					"question": "O que é mais importante num relacionamento ?",
+					"options":[
+						{"id": 1, "name":"Amor 💘", "alias":"B"},
+						{"id": 2, "name":"Diálogo 🗣", "alias":"A"},
+						{"id": 3, "name":"Marcar nos memes 🤣", "alias":"A"},
+						{"id": 4, "name":"Ser feliz 😁", "alias":"B"}
+					]
+				}
+			],
+			"results":{
+				"A": {"text":"A chance de você encontrar seu par ainda esse ano é de: ", "image": "assets/images/love.webp"},
+				"B": {"text":"", "image": ""},
 				"C": {"text":"", "image": ""},
 				"D": {"text":"", "image": ""}
 			}
